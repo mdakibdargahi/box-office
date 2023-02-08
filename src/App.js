@@ -17,7 +17,7 @@ function App() {
       </Route>
       <Route exact path="/show/:id">
         <Show />
-        <Starred />
+        {/* <Starred /> */}
       </Route>
       <Route>
         {' '}
