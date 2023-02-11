@@ -3,7 +3,7 @@ import { useEffect, useReducer } from 'react';
 function showsReducer(prevState, action) {
   switch (action.type) {
     case 'ADD': {
-      return [...prevState, action.setId];
+      return [...prevState, action.showId];
     }
     case 'REMOVE': {
       return prevState.filter(showId => showId !== action.showId);
